@@ -23,24 +23,23 @@ This document outlines the updated automation workflow for turning AIwik article
 ### 3. Text-to-Speech (TTS)
 - Convert `summary_text` into audio using:
   - ✅ **ElevenLabs**
-  - ✅ **Google Cloud TTS**
 
 - **Output**: `.mp3` or `.wav` file
 
 ---
 
 ### 4. Image Generation
-- Use **ChatGPT (DALL·E)** to generate **4 visual slides**
+- Use **ChatGPT (DALL·E)** to generate **1 visual slide**
 - Prompts based on title and summary context
 
-- **Output**: `.png` or `.jpg` images
+- **Output**: `.png` or `.jpg` image
 
 ---
 
 ### 5. Video Creation
 - Use **Hedra API** to combine:
   - Generated audio
-  - 4 AI-generated images
+  - 4 AI-generated image
 
 - **Output**: Final `.mp4` video
 
