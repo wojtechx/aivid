@@ -1,5 +1,5 @@
 
-# 🎬 AIwik Video Workflow with YouTube & Twitter Integration
+# 🎬 AIvid Video Workflow with YouTube & Twitter Integration
 
 This document outlines the updated automation workflow for turning AIwik article summaries into videos, uploading them to YouTube and Twitter, and managing file storage using Cloudflare R2.
 
